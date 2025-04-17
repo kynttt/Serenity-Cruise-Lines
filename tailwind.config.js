@@ -12,8 +12,11 @@ export default {
     },
     colors: {
       'primary': '#0068A5',
+      'txtPrimary-color': '#0A0A0A',
+      
       blue: {
-        900: '#1e3a8a', // Adjust this to match your brand color
+        900: '#1e3a8a', 
+        
       }
     },
   },

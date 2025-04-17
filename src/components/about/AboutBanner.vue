@@ -3,10 +3,10 @@
       <div class="container mx-auto px-4 flex flex-col md:flex-row items-start md:items-center justify-between relative z-10">
         <!-- Text Content -->
         <div class="md:w-1/2 text-[#1A1A1A] z-10">
-          <h1 class="text-[48px] leading-[1.2] font-cormorant font-bold mb-8">
+          <h1 class="text-[72px] leading-[1.2] font-cormorant font-bold text-txtPrimary-color mb-8">
             Welcome to Serenity Cruise Lines
           </h1>
-          <div class="space-y-6 text-[#4B5563] font-switzer text-[17px] leading-relaxed">
+          <div class="space-y-6 text-[#404040] font-switzer text-[20px] leading-relaxed">
             <p>
               Serenity Cruise Lines is redefining the cruise experience in Asia, blending luxury, adventure,
               and cultural immersion to create unforgettable journeys. With a headquarters in Singapore
