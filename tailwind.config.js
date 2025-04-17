@@ -12,6 +12,9 @@ export default {
     },
     colors: {
       'primary': '#0068A5',
+      blue: {
+        900: '#1e3a8a', // Adjust this to match your brand color
+      }
     },
   },
   },

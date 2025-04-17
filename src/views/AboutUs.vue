@@ -1,43 +1,37 @@
 <template>
-    <section class="w-full min-h-screen bg-white">
-      <!-- Banner / Hero Section -->
-      <div class="container mx-auto px-4 py-16 flex flex-col-reverse md:flex-row items-center gap-8">
-        <!-- Text Content -->
-        <div class="md:w-1/2">
-          <h1 class="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            Welcome to Serenity Cruise Lines
-          </h1>
-          <p class="text-gray-600 mb-6">
-            Serenity Cruise Lines is redefining the cruise experience, blending luxury with adventure.
-          </p>
-          <p class="text-gray-600 mb-8">
-            Our fleet offers unparalleled comfort and exploration across breathtaking destinations.
-          </p>
-          <button class="px-6 py-3 bg-blue-500 text-white font-semibold rounded hover:bg-blue-600">
-            READ MORE ABOUT US
-          </button>
-        </div>
-        <!-- Hero Image -->
-        <div class="md:w-1/2 flex justify-center">
-          <img
-            src="https://via.placeholder.com/600x400"
-            alt="Cruise Ship Banner"
-            class="w-full h-auto object-cover rounded shadow-md"
-          />
-        </div>
+  <div class=" bg-white">
+    <!-- Hero Section -->
+    <AboutBanner />
+
+    <!-- Mission & Vision -->
+    <MissionVision />
+
+    <!-- Leadership Team -->
+    <LeadershipTeam />
+
+    <!-- Service Highlights -->
+    <ServiceHighlights />
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-900 text-white">
+      <div class="container mx-auto px-4 text-center">
+        <img src="@/assets/icons/anchor.svg" alt="Anchor" class="w-12 h-12 mx-auto mb-6">
+        <h2 class="text-3xl font-bold mb-6">Join Us on This Journey</h2>
+        <p class="mb-8 max-w-2xl mx-auto">
+          Discover the world's most beautiful destinations with Serenity Cruise Lines.
+        </p>
+        <BaseButton variant="white" size="lg">
+          Book Now
+        </BaseButton>
       </div>
     </section>
-  </template>
-  
-  <script lang="ts">
-  import { defineComponent } from 'vue'
-  
-  export default defineComponent({
-    name: 'AboutUs'
-  })
-  </script>
-  
-  <style scoped>
-  /* Add any page-specific styles if needed */
-  </style>
-  
+  </div>
+</template>
+
+<script setup lang="ts">
+import AboutBanner from '@/components/about/AboutBanner.vue'
+import MissionVision from '@/components/about/MissionVision.vue'
+import LeadershipTeam from '@/components/about/LeadershipTeam.vue'
+import ServiceHighlights from '@/components/about/ServiceHighlights.vue'
+import BaseButton from '@/components/BaseButton.vue'
+</script>

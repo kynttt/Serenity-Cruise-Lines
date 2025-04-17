@@ -3,7 +3,7 @@ import AboutUs from './views/AboutUs.vue'
 import Cruise from './views/Cruise.vue'
 
 const routes: Array<RouteRecordRaw> = [
-  { path: '/', name: 'AboutUs', component: AboutUs },
+  { path: '/about', name: 'AboutUs', component: AboutUs },
   { path: '/cruise', name: 'Cruise', component: Cruise },
   // ...other routes if any
 ]

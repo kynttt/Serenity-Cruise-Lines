@@ -14,7 +14,7 @@
       <!-- Desktop nav (md and up) -->
       <div class="hidden md:flex items-center gap-6 lg:gap-12">
         <ul class="text-base md:text-[20px] flex items-center gap-6 lg:gap-10 text-[#404040]">
-          <li><router-link to="/" class="nav-link" active-class="border-b border-primary text-primary">About Us</router-link></li>
+          <li><router-link to="/about" class="nav-link" active-class="border-b border-primary text-primary">About Us</router-link></li>
           <li><router-link to="/cruise" class="nav-link" active-class="border-b border-primary text-primary">Cruises</router-link></li>
           <li><a href="#" class="nav-link disabled">Fleet</a></li>
           <li><a href="#" class="nav-link disabled">Destinations</a></li>
