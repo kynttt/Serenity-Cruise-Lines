@@ -1,5 +1,5 @@
 <template>
-    <section class="relative border-b border-[#E6F4FF] bg-white py-24 overflow-hidden">
+    <section class="relative border-b border-gray-200 bg-white py-24 overflow-hidden">
       <div class="container mx-auto px-4 flex flex-col md:flex-row items-start md:items-center justify-between relative z-10">
         <!-- Text Content -->
         <div class="md:w-1/2 text-[#1A1A1A] z-10">

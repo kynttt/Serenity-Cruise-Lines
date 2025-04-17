@@ -2,7 +2,7 @@
     <section class="bg-white  py-20 font-switzer text-[#404040] ">
       <div class="container mx-auto px-4">
         <!-- Section 1: Our Vision & Mission -->
-        <div class="mb-20 grid md:grid-cols-4 gap-12">
+        <div class="pb-20 mb-20 grid md:grid-cols-4 gap-12 border-b border-gray-200">
           <div class="md:col-span-1">
             <p class="text-2xl  tracking-wide uppercase">01</p>
             <h3 class="text-2xl font-medium  text-[#404040] ">Our Vision & Mission</h3>
@@ -29,7 +29,7 @@
         </div>
   
         <!-- Section 2: Why Serenity Cruise Lines -->
-        <div class="mb-10 grid md:grid-cols-4 gap-12">
+        <div class="mb-24 grid md:grid-cols-4 gap-12">
           <div class="md:col-span-1">
             <p class="text-2xl  tracking-wide uppercase">02</p>
             <h3 class="text-2xl font-medium ">Why Serenity Cruise Lines</h3>
@@ -70,6 +70,11 @@
             </div>
           </div>
         </div>
+      
+      </div>
+         <!-- Decorative Image -->
+         <div class="w-full mt-12">
+        <img src="@/assets/images/ship.png" alt="Serenity Cruise Ship" class="w-full h-auto object-cover" />
       </div>
     </section>
   </template>
