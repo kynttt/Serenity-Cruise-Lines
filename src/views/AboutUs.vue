@@ -10,7 +10,7 @@
     <LeadershipTeam />
 
     <!-- Service Highlights -->
-    <ServiceHighlights />
+    <!-- <ServiceHighlights /> -->
 
     <!-- CTA Section -->
     <section class="py-16 bg-blue-900 text-white">

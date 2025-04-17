@@ -5,7 +5,7 @@
         <div class="pb-20 mb-20 grid md:grid-cols-4 gap-12 border-b border-gray-200">
           <div class="md:col-span-1">
             <p class="text-2xl  tracking-wide uppercase">01</p>
-            <h3 class="text-2xl font-medium  text-[#404040] ">Our Vision & Mission</h3>
+            <h3 class="text-2xl font-medium ">Our Vision & Mission</h3>
           </div>
           <div class="md:col-span-3 grid md:grid-cols-2 gap-12">
             <div>

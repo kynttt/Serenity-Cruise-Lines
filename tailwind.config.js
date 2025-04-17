@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         switzer: ['"Switzer"', 'sans-serif'],
         cormorant: ['"Cormorant Garamond"', 'serif'],
+        hand: ['"Handlee"', 'cursive'],
     },
     colors: {
       'primary': '#0068A5',
