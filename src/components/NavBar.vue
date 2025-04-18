@@ -20,9 +20,9 @@
           <li><a href="#" class="nav-link disabled">Destinations</a></li>
           <li><a href="#" class="nav-link disabled">Careers</a></li>
           <li>
-            <a href="#" class="flex items-center gap-1">
+            <a href="#" class="flex items-center gap-2">
               Others
-              <ChevronDown class="w-4 h-4 stroke-[2] text-[#404040]" />
+              <ChevronDown class="w-6 h-8 pt-1 stroke-[1] text-[#404040]" />
             </a>
           </li>
         </ul>
@@ -72,9 +72,9 @@
           <li><a href="#" class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary">Destinations</a></li>
           <li><a href="#" class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary">Careers</a></li>
           <li>
-            <a href="#" class="flex items-center gap-1">
+            <a href="#" class="flex text-xl text-[#062E4B] items-center gap-1">
               Others
-              <ChevronDown class="w-4 h-4 stroke-[2] text-[#404040]" />
+              <ChevronDown class="w-6 h-8 pt-1 stroke-[1] text-[#062E4B]" />
             </a>
           </li>
         </ul>

@@ -65,8 +65,6 @@ const rounded = computed(() =>
 
 /* inline width/height style for arbitrary pixel values */
 const sizeStyle = computed(() => ({
-  width: typeof w.value === 'number' ? `${w.value}px` : w.value,
-  height: typeof h.value === 'number' ? `${h.value}px` : h.value,
   gap: `${gap.value}px`,
   paddingTop: typeof pt.value === 'number' ? `${pt.value}px` : pt.value,
   paddingRight: typeof pr.value === 'number' ? `${pr.value}px` : pr.value,
