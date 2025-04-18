@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white py-12 md:py-20 font-switzer text-[#404040]">
+  <section class="bg-white py-8 md:py-20 font-switzer text-[#404040]">
     <div class="container mx-auto px-4">
       <!-- Section 1: Vision & Mission -->
       <div class="md:mb-20 md:pb-20 mb-12 pb-12 md:grid md:grid-cols-4 gap-12 border-b border-gray-200">

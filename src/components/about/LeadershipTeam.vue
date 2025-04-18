@@ -1,5 +1,5 @@
 <template>
-  <section class="md:py-20 py-12 bg-white text-[#404040] font-switzer">
+  <section class="md:pt-18 md:pb-20 py-8 bg-white text-[#404040] font-switzer">
     <div class="container mx-auto px-4">
       <!-- Heading: The Team -->
       <div class="pb-12  md:pb-20  grid md:grid-cols-4 gap-8 md:gap-12">
