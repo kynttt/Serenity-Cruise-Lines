@@ -13,16 +13,16 @@
 
       <!-- Desktop nav (md and up) -->
       <div class="hidden md:flex items-center gap-6 lg:gap-12">
-        <ul class="text-base md:text-[20px] flex items-center gap-6 lg:gap-10 text-[#404040]">
+        <ul class="text-base md:text-[20px] flex items-center gap-6 lg:gap-10 text-[#404040] font-normal">
           <li><router-link to="/about" class="nav-link" active-class="border-b border-primary text-primary">About Us</router-link></li>
           <li><router-link to="/cruise" class="nav-link" active-class="border-b border-primary text-primary">Cruises</router-link></li>
           <li><a href="#" class="nav-link disabled">Fleet</a></li>
           <li><a href="#" class="nav-link disabled">Destinations</a></li>
           <li><a href="#" class="nav-link disabled">Careers</a></li>
           <li>
-            <a href="#" class="flex items-center gap-1">
+            <a href="#" class="flex items-center gap-2">
               Others
-              <ChevronDown class="w-4 h-4 stroke-[2] text-[#404040]" />
+              <ChevronDown class="w-6 h-8 pt-1 stroke-[1] text-[#404040]" />
             </a>
           </li>
         </ul>
@@ -66,15 +66,15 @@
 
         <!-- Mobile nav links -->
         <ul class="pb-8 space-y-4 text-base sm:text-[20px] text-secondary border-b border-gray-300">
-          <li class=""><router-link to="/" @click="toggleMenu" class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary">About Us</router-link></li>
+          <li class=""><router-link to="/" @click="toggleMenu" class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary ">About Us</router-link></li>
           <li class=""><router-link to="/cruise" @click="toggleMenu" class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary">Cruises</router-link></li>
           <li><a href="#"  class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary">Fleet</a></li>
           <li><a href="#" class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary">Destinations</a></li>
           <li><a href="#" class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary">Careers</a></li>
           <li>
-            <a href="#" class="flex items-center gap-1">
+            <a href="#" class="flex text-xl text-[#062E4B] items-center gap-1">
               Others
-              <ChevronDown class="w-4 h-4 stroke-[2] text-[#404040]" />
+              <ChevronDown class="w-6 h-8 pt-1 stroke-[1] text-[#062E4B]" />
             </a>
           </li>
         </ul>
