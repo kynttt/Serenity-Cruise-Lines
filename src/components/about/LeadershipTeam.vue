@@ -23,7 +23,7 @@
       </div>
 
       <!-- Team Cards -->
-      <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-8 md:mb-16 mb-12">
+      <div class="grid sm:grid-cols-1 md:grid-cols-3 gap-8 md:mb-16 mb-8">
         <div v-for="member in team" :key="member.id" class="bg-white overflow-hidden">
           <div class="border p-3 mb-6 shadow-sm">
             <img :src="member.image" :alt="member.name" class="w-full h-[400px] md:h-[486px] object-cover" />
@@ -46,7 +46,7 @@
       </div>
 
       <!-- Investors & Partners -->
-      <div class="md:pt-20 pt-12 md:mb-20 mb-12 grid md:grid-cols-4 gap-8 md:gap-12 border-t border-gray-200 text-[#404040]">
+      <div class="md:pt-20 pt-8 md:mb-20 mb-12 grid md:grid-cols-4 gap-8 md:gap-12 border-t border-gray-200 text-[#404040]">
         <div>
           <p class="text-sm md:text-2xl tracking-wide uppercase font-light">04</p>
           <h3 class="text-sm md:text-2xl font-light">Investors & Partners</h3>
@@ -66,7 +66,7 @@
             <BaseButton
               width="100%"
               height="56px"
-              class="sm:w-[332px] sm:h-[64px] border border-serenityBlue"
+              class="sm:w-[332px] sm:h-[64px] border border-serenityBlue hover:bg-primary  hover:text-white"
               bg="transparent"
               color="text-primary"
               :rounded="0"
