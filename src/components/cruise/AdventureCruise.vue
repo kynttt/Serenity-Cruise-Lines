@@ -13,7 +13,7 @@
           <!-- Image Column (shown first on mobile via order) -->
           <div class="order-1 md:order-2 flex justify-center md:justify-end">
             <div class="relative w-full max-w-md sm:max-w-md md:max-w-[600px] md:h-[600px]">
-              <div class="absolute right-0 -right-[40px] top-[20px] sm:top-[40px] w-full h-full bg-[#E6F4FF] z-0"></div>
+              <div class="absolute  -right-[40px] top-[20px] sm:top-[40px] w-full h-full bg-[#E6F4FF] z-0"></div>
               <img
                 src="@/assets/images/cruise-page/expedition-hero.png"
                 alt="Expedition Cruise"
