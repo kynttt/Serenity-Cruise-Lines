@@ -4,7 +4,7 @@
         <!-- Section Header -->
         <div class="mb-12">
           <p class="text-sm md:text-2xl tracking-wide uppercase font-light">01</p>
-          <h2 class="text-sm md:text-2xl md:mb-12 mb-10 font-light">Featured Cruises</h2>
+          <h2 class="text-sm md:text-2xl md:mb-12 mb-8 font-light">Featured Cruises</h2>
           <hr class="mt-4 border-gray-300" />
         </div>
   
