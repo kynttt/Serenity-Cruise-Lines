@@ -8,58 +8,92 @@
           <hr class="border-gray-300" />
         </div>
   
-        <!-- Category Grid -->
-        <div class="grid md:grid-cols-3 gap-12">
+        <!-- ✅ Mobile Horizontal Scroll -->
+        <div class="flex md:hidden overflow-x-auto gap-6 pb-4 no-scrollbar">
           <div
             v-for="(item, index) in cruises"
             :key="index"
-            class="space-y-4"
+            class="flex-shrink-0 w-[280px] space-y-4"
           >
             <!-- Image -->
             <img :src="item.image" :alt="item.title" class="w-full object-cover" />
   
             <!-- Title -->
-            <h3 class="text-[28px] md:text-[32px] font-cormorant font-semibold">
+            <h3 class="text-[28px] font-cormorant font-semibold">
               {{ item.title }}
             </h3>
   
             <!-- Route Info -->
-            <div class="flex items-start gap-2 text-sm md:text-xl text-txtPrimary-color font-light">
+            <div class="flex items-start gap-2 text-sm text-txtPrimary-color font-light">
               <img
                 src="@/assets/icons/cruise-page/routing.png"
-                class="md:w-10 md:h-10 w-6 h-6 mt-[2px]"
+                class="w-6 h-6 mt-[2px]"
                 alt="routing icon"
               />
               <p class="leading-snug">
                 {{ item.route }}<br />
-                <span class="text-primary text-sm md:text-base font-light">
-                  {{ item.extraRoutes }}
-                </span>
+                <span class="text-primary font-light">{{ item.extraRoutes }}</span>
               </p>
             </div>
   
             <!-- Meta -->
-            <div class="flex items-center gap-2 text-sm md:text-xl text-txtPrimary-color font-light">
+            <div class="flex items-center gap-2 text-sm text-txtPrimary-color font-light">
               <img
                 src="@/assets/icons/cruise-page/clock.png"
-                class="md:w-10 md:h-10 w-6 h-6 mt-[2px]"
+                class="w-6 h-6"
                 alt="duration icon"
               />
               <p>{{ item.duration }}</p>
             </div>
   
-            <div class="flex items-center gap-2 text-sm md:text-xl text-txtPrimary-color font-light">
+            <div class="flex items-center gap-2 text-sm text-txtPrimary-color font-light">
               <img
                 src="@/assets/icons/cruise-page/diamond.png"
-                class="md:w-10 md:h-10 w-6 h-6 mt-[2px]"
+                class="w-6 h-6"
                 alt="experience icon"
               />
               <p>{{ item.experience }}</p>
             </div>
   
-            <!-- CTA Button -->
+            <!-- Button -->
             <button
-              class="mt-2 border border-primary text-primary px-6 py-3 uppercase text-sm tracking-wide font-normal  hover:bg-primary hover:text-white transition-colors duration-300"
+              class="mt-2 border border-primary text-primary px-6 py-3 uppercase text-sm tracking-wide font-normal hover:bg-primary hover:text-white transition-colors duration-300"
+            >
+              View Itinerary
+            </button>
+          </div>
+        </div>
+  
+        <!-- ✅ Desktop Grid -->
+        <div class="hidden md:grid md:grid-cols-3 gap-12">
+          <div
+            v-for="(item, index) in cruises"
+            :key="index"
+            class="space-y-4"
+          >
+            <img :src="item.image" :alt="item.title" class="w-full object-cover" />
+            <h3 class="text-[32px] font-cormorant font-semibold">{{ item.title }}</h3>
+  
+            <div class="flex items-start gap-2 text-xl text-txtPrimary-color font-light">
+              <img src="@/assets/icons/cruise-page/routing.png" class="w-10 h-10 mt-[2px]" />
+              <p class="leading-snug">
+                {{ item.route }}<br />
+                <span class="text-primary text-base font-light">{{ item.extraRoutes }}</span>
+              </p>
+            </div>
+  
+            <div class="flex items-center gap-2 text-xl text-txtPrimary-color font-light">
+              <img src="@/assets/icons/cruise-page/clock.png" class="w-10 h-10 mt-[2px]" />
+              <p>{{ item.duration }}</p>
+            </div>
+  
+            <div class="flex items-center gap-2 text-xl text-txtPrimary-color font-light">
+              <img src="@/assets/icons/cruise-page/diamond.png" class="w-10 h-10 mt-[2px]" />
+              <p>{{ item.experience }}</p>
+            </div>
+  
+            <button
+              class="mt-2 border border-primary text-primary px-6 py-3 uppercase text-sm tracking-wide font-normal hover:bg-primary hover:text-white transition-colors duration-300"
             >
               View Itinerary
             </button>
@@ -73,6 +107,7 @@
   import sgGetawayImg from '@/assets/images/cruise-page/sg-getaway.png'
   import koreaJapanImg from '@/assets/images/cruise-page/korea-japan.png'
   import featuredCruiseImg from '@/assets/images/cruise-page/featured-cruise.png'
+  
   const cruises = [
     {
       title: 'Singapore Getaways',
@@ -101,5 +136,13 @@
   ]
   </script>
   
-  <style scoped></style>
+  <style scoped>
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  </style>
   
