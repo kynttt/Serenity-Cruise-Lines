@@ -5,17 +5,17 @@
       <div class="pb-20 mb-20 grid md:grid-cols-4 gap-12">
   <!-- Left Column: Section Label -->
   <div>
-    <p class="text-2xl tracking-wide uppercase">03</p>
-    <h3 class="text-2xl font-medium">The Team</h3>
+    <p class="text-base md:text-2xl tracking-wide uppercase font-light">03</p>
+    <h3 class="text-base md:text-2xl font-light">The Team</h3>
   </div>
 
   <!-- Right Column: Title + Description in 2-column grid -->
   <div class="md:col-span-3 grid md:grid-cols-2 gap-12">
     <div>
-      <h2 class="text-[44px] font-cormorant font-bold text-txtPrimary-color mb-4">Our Leadership Team</h2>
+      <h2 class="text-[28px] md:text-[44px] font-cormorant font-medium text-txtPrimary-color mb-4">Our Leadership Team</h2>
     </div>
     <div>
-      <p class="text-xl leading-relaxed ">
+      <p class="text-base md:text-xl font-light leading-relaxed">
         Serenity Cruise Lines is led by industry veterans with extensive experience in cruise
         operations, hospitality, finance, and business strategy. Our leadership team brings over
         100 years of combined expertise from the world’s leading cruise brands.
@@ -65,18 +65,18 @@
       
   <div class="pt-20 md:mb-20 mb-12 grid md:grid-cols-4 gap-12 border-t border-gray-200 text-[#404040]">
     <div>
-      <p class="text-2xl tracking-wide uppercase">04</p>
-      <h3 class="text-2xl font-medium ">Investors & Partners</h3>
+      <p class="text-base md:text-2xl tracking-wide uppercase font-light">04</p>
+      <h3 class="text-base md:text-2xl font-light">Investors & Partners</h3>
     </div>
 
     <div class="md:col-span-3 grid md:grid-cols-2 gap-12">
       <div>
-        <h2 class="text-[44px] font-cormorant font-bold text-txtPrimary-color mb-4">
+        <h2 class="text-[28px] md:text-[44px] font-cormorant font-medium text-txtPrimary-color mb-4">
           Our Commitment to Investors & Partners
         </h2>
       </div>
       <div>
-        <p class="text-xl leading-relaxed  mb-6 md:mb-32">
+        <p class="text-base md:text-xl font-light leading-relaxed  mb-6 md:mb-32">
           Serenity Cruise Lines is expanding rapidly, with plans for an IPO in the next 8–10 years.
           We are actively seeking strategic investors and business partners to join us in creating
           the next-generation cruise experience in Asia.
@@ -101,7 +101,7 @@
 
 
       <!-- Investor Highlights -->
-      <h1 class="text-[44px] font-cormorant font-bold text-txtPrimary-color md:mb-16 mb-8">Investor Highlights</h1>
+      <h1 class="text-[44px] font-cormorant font-medium text-txtPrimary-color md:mb-16 mb-8">Investor Highlights</h1>
       <div class="grid md:grid-cols-3 gap-6">
         
         <div class="bg-secondary font-switzer px-8 py-10 rounded-md border border-blue-100">

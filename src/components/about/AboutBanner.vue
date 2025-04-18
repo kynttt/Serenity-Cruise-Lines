@@ -3,10 +3,10 @@
     <div class="container mx-auto px-4 flex flex-col-reverse md:flex-row items-start md:items-center justify-between relative z-10 gap-12">
       <!-- Text Content -->
       <div class="w-full md:w-1/2 text-[#1A1A1A] z-10">
-        <h1 class="text-[32px] md:text-[72px] leading-snug md:leading-[1.2] font-cormorant font-bold text-txtPrimary-color mb-6 md:mb-8">
+        <h1 class="text-[32px] md:text-[72px] leading-snug md:leading-[1.2] font-cormorant font-semibold text-txtPrimary-color mb-6 md:mb-8">
           Welcome to Serenity Cruise Lines
         </h1>
-        <div class="space-y-6 text-[#404040] font-switzer text-base md:text-[20px] leading-relaxed">
+        <div class="space-y-6 text-[#404040] font-switzer text-base md:text-[20px] leading-relaxed font-light">
           <p>
             Serenity Cruise Lines is redefining the cruise experience in Asia, blending luxury, adventure,
             and cultural immersion to create unforgettable journeys. With a headquarters in Singapore
@@ -19,7 +19,7 @@
             landscapes across Asia.
           </p>
         </div>
-        <button class="mt-8 px-6 py-3 border border-[#0068A5] text-[#0068A5] hover:bg-[#0068A5] hover:text-white transition-colors duration-300 uppercase text-sm tracking-wide w-full sm:w-auto">
+        <button class="mt-8 px-6 py-3 border border-[#0068A5] text-[#0068A5] hover:bg-[#0068A5] hover:text-white transition-colors duration-300 uppercase text-sm md:text-[20px] tracking-wide w-full sm:w-auto">
           Read More About Us
         </button>
       </div>
