@@ -13,7 +13,7 @@
     <!-- <ServiceHighlights /> -->
 
     <!-- CTA Section -->
-    <section class="py-16 bg-blue-900 text-white">
+    <!-- <section class="py-16 bg-blue-900 text-white">
       <div class="container mx-auto px-4 text-center">
         <img src="@/assets/icons/anchor.svg" alt="Anchor" class="w-12 h-12 mx-auto mb-6">
         <h2 class="text-3xl font-bold mb-6">Join Us on This Journey</h2>
@@ -24,7 +24,7 @@
           Book Now
         </BaseButton>
       </div>
-    </section>
+    </section> -->
   </div>
 </template>
 

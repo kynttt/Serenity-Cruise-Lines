@@ -27,7 +27,7 @@
         <!-- Image with Background Layer -->
         <div class="md:w-1/2 mt-12 md:mt-0 relative md:pl-20">
           <div class="relative w-[600px] h-[600px] md:h-[600px]">
-            <div class="absolute right-[-30px] top-[30px] w-full h-full bg-[#E6F4FF]  z-0"></div>
+            <div class="absolute right-[-30px] top-[30px] w-full h-full bg-secondary  z-0"></div>
             <img
               src="@/assets/images/cruise-hero.png"
               alt="Serenity Cruise Ship"

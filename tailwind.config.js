@@ -13,6 +13,7 @@ export default {
     },
     colors: {
       'primary': '#0068A5',
+      'secondary': '#F0F9FF',
       'txtPrimary-color': '#0A0A0A',
       
       blue: {
