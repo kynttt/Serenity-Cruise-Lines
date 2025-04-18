@@ -27,7 +27,7 @@
             </h1>
   
             <!-- Meta Info -->
-            <div class="space-y-4 text-[#4B5563] font-light md:pb-6">
+            <div class="space-y-4 text-txtPrimary-color font-light md:pb-6">
               <div class="flex items-center gap-3 text-sm md:text-xl">
                 <img src="@/assets/icons/cruise-page/routing.png" alt="routing icon" class="md:w-10 md:h-10 w-6 h-6 mt-[2px]" />
                 <p>Singapore → Malaysia → Thailand → Vietnam → China → South Korea</p>

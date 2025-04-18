@@ -24,7 +24,7 @@
             </h3>
   
             <!-- Route Info -->
-            <div class="flex items-start gap-2 text-sm md:text-xl text-[#4B5563] font-light">
+            <div class="flex items-start gap-2 text-sm md:text-xl text-txtPrimary-color font-light">
               <img
                 src="@/assets/icons/cruise-page/routing.png"
                 class="md:w-10 md:h-10 w-6 h-6 mt-[2px]"
@@ -39,7 +39,7 @@
             </div>
   
             <!-- Meta -->
-            <div class="flex items-center gap-2 text-sm md:text-xl text-[#4B5563] font-light">
+            <div class="flex items-center gap-2 text-sm md:text-xl text-txtPrimary-color font-light">
               <img
                 src="@/assets/icons/cruise-page/clock.png"
                 class="md:w-10 md:h-10 w-6 h-6 mt-[2px]"
@@ -48,7 +48,7 @@
               <p>{{ item.duration }}</p>
             </div>
   
-            <div class="flex items-center gap-2 text-sm md:text-xl text-[#4B5563] font-light">
+            <div class="flex items-center gap-2 text-sm md:text-xl text-txtPrimary-color font-light">
               <img
                 src="@/assets/icons/cruise-page/diamond.png"
                 class="md:w-10 md:h-10 w-6 h-6 mt-[2px]"

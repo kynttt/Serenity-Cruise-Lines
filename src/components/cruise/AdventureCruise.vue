@@ -1,5 +1,5 @@
 <template>
-    <section class="md:py-20 py-10 bg-white text-[#1A1A1A] font-switzer">
+    <section class="md:py-20 py-10 bg-white  font-switzer">
       <div class="container mx-auto px-4">
         <!-- Section Header -->
         <div class="mb-12">
@@ -27,7 +27,7 @@
             <h1 class="text-[28px] md:text-[44px] font-cormorant font-semibold">
               Explore the uncharted
             </h1>
-            <p class="text-sm md:text-xl text-[#4B5563] font-light">
+            <p class="text-sm md:text-xl text-txtPrimary-color font-light">
               For those who seek off-the-beaten-path travel, Serenity Quest offers small-ship expeditions to remote and exotic destinations.
             </p>
   

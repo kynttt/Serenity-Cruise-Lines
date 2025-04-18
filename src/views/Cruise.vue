@@ -5,6 +5,8 @@
     <CruiseCategories />
     <AdventureCruise />
     <CruiseExperiences />
+    <CruiseInclusive />
+    <Footer />
   </div>
 </template>
 
@@ -15,10 +17,12 @@ import FeaturedCruise from '@/components/cruise/FeaturedCruise.vue'
 import CruiseCategories from '@/components/cruise/CruiseCategories.vue'
 import AdventureCruise from '@/components/cruise/AdventureCruise.vue'
 import CruiseExperiences from '@/components/cruise/CruiseExperiences.vue'
+import CruiseInclusive from '@/components/cruise/CruiseInclusive.vue'
+import Footer from '@/components/Footer.vue'
 export default defineComponent({
   name: 'Cruise',
   components: {
-    CruiseHero, FeaturedCruise, CruiseCategories, AdventureCruise, CruiseExperiences
+    CruiseHero, FeaturedCruise, CruiseCategories, AdventureCruise, CruiseExperiences, CruiseInclusive, Footer
   }
 })
 </script>

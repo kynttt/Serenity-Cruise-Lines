@@ -1,11 +1,11 @@
 <template>
-    <section class="py-16 bg-white text-txtPrimary-color font-switzer">
+    <section class="py-8 bg-white text-txtPrimary-color font-switzer">
       <div class="container mx-auto px-4">
         <!-- Header -->
         <div class="mb-12">
           <p class="text-sm md:text-2xl tracking-wide uppercase font-light">04</p>
           <h2 class="text-sm md:text-2xl font-light mb-4">Serenity Cruise Experiences</h2>
-          <hr class="border-gray-300" />
+          <hr class="border-gray-300 md:my-12" />
         </div>
   
         <!-- Scrollable Cards -->
@@ -30,7 +30,7 @@
                 <h3 class="text-base md:text-3xl font-cormorant font-semibold">
                   {{ item.title }}
                 </h3>
-                <p class="text-sm md:text-lg font-light leading-relaxed text-[#4B5563]">
+                <p class="text-sm md:text-lg font-light leading-relaxed text-txtPrimary-color">
                   {{ item.description }}
                 </p>
               </div>
