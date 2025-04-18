@@ -66,7 +66,7 @@
 
         <!-- Mobile nav links -->
         <ul class="pb-8 space-y-4 text-base sm:text-[20px] text-secondary border-b border-gray-300">
-          <li class=""><router-link to="/" @click="toggleMenu" class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary ">About Us</router-link></li>
+          <li class=""><router-link to="/about" @click="toggleMenu" class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary ">About Us</router-link></li>
           <li class=""><router-link to="/cruise" @click="toggleMenu" class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary">Cruises</router-link></li>
           <li><a href="#"  class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary">Fleet</a></li>
           <li><a href="#" class="text-xl text-[#062E4B]" active-class="border-b border-primary text-primary">Destinations</a></li>
