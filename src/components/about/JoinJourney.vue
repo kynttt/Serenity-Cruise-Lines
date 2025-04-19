@@ -34,21 +34,21 @@
       <!-- CTA Buttons -->
       <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
         <BaseButton
-  width="100%"
-  height="56px"
-  class="md:w-[245px] md:h-[64px] w-full h-[56px]"
-  bg="bg-primary"
-  color="text-white hover:bg-transparent hover:text-primary hover:border-primary hover:border"
-  :rounded="0"
+        width="100%"
+          height="56px"
+          class="w-full sm:w-[245px] h-[56px] sm:h-[64px]"
+          bg="bg-primary"
+          color="text-white hover:bg-transparent hover:text-primary hover:border-primary hover:border"
+          :rounded="0"
 >
   FIND YOUR CRUISE
 </BaseButton>
 
 <BaseButton
-  class="w-full h-[56px] sm:w-[184px] sm:h-[64px] border border-primary"
-  bg="transparent"
-  color="text-primary hover:bg-primary hover:text-white"
-  :rounded="0"
+class="w-full sm:w-[184px] h-[56px] sm:h-[64px] border border-primary"
+          bg="transparent"
+          color="text-primary hover:bg-primary hover:text-white"
+          :rounded="0"
 >
   CONTACT US
 </BaseButton>

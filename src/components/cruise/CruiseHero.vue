@@ -38,12 +38,26 @@
             </BaseButton>
           </div>
         </div>
+        
       </div>
-  
-      <!-- Scroll Hint -->
-      <div class="absolute bottom-8 right-6 text-sm text-white font-switzer">
-        SCROLL TO EXPLORE MORE
-      </div>
+      <div
+  class="absolute bottom-6 left-0 right-0 w-full px-4 container mx-auto 
+         flex flex-col sm:flex-row justify-between items-center sm:items-start text-sm md:text-xl 
+         font-extralight text-white font-switzer gap-2 sm:gap-0"
+>
+  <!-- Scroll text: Left-aligned on sm, right-aligned on md+ -->
+  <div class="text-left sm:text-right w-full sm:w-auto order-1 sm:order-2">
+    SCROLL TO EXPLORE MORE
+  </div>
+
+  <!-- Cruises label: Hidden on small, shown on md+ -->
+  <div class="hidden md:flex text-left sm:text-left w-full sm:w-auto order-2 sm:order-1">
+    CRUISES
+  </div>
+</div>
+
+
+     
     </section>
   </template>
   
