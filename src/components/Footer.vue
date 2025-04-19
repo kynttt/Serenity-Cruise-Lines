@@ -36,8 +36,8 @@
         <div class="md:col-span-3 space-y-4">
           <p class="uppercase text-sm tracking-widest text-gray-300 font-switzer">Navigation</p>
           <ul class="space-y-3 text-sm font-semibold font-switzer">
-            <li><a href="#" class="hover:underline">ABOUT US</a></li>
-            <li><a href="#" class="hover:underline">CRUISES</a></li>
+            <li><a href="/about" class="hover:underline">ABOUT US</a></li>
+            <li><a href="/cruise" class="hover:underline">CRUISES</a></li>
             <li><a href="#" class="hover:underline">FLEET</a></li>
             <li><a href="#" class="hover:underline">DESTINATIONS</a></li>
             <li><a href="#" class="hover:underline">CAREERS</a></li>
