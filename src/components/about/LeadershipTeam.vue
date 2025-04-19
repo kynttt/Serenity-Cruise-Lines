@@ -106,26 +106,30 @@
 <script setup lang="ts">
 import BaseButton from '@/components/BaseButton.vue'
 
+import ceoImg from '@/assets/images/team/ceo.jpg'
+import chefImg from '@/assets/images/team/chef.jpg'
+import directorImg from '@/assets/images/team/director.jpg'
+
 const team = [
   {
     id: 1,
     name: "Martin O'Dee",
     role: 'Chief Executive Officer',
-    image: '/src/assets/images/team/ceo.jpg',
+    image: ceoImg,
     description: 'Visionary founder with decades of experience in business strategy, tourism, and international operations.'
   },
   {
     id: 2,
     name: 'Tony Eyres',
     role: 'Chief Operating Officer',
-    image: '/src/assets/images/team/chef.jpg',
+    image: chefImg,
     description: 'Specialist in cruise line management, fleet expansion, and operational excellence.'
   },
   {
     id: 3,
     name: 'Senior Leadership Team',
     role: '',
-    image: '/src/assets/images/team/director.jpg',
+    image: directorImg,
     bullets: [
       'Experts in marine operations, finance, marketing, and guest services.',
       'Former executives from leading cruise companies ensuring a world-class experience.'
